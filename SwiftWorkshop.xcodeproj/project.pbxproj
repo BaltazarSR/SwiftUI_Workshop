@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		D875A5F42CFF7653000493B8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D875A5F32CFF7653000493B8 /* .gitignore */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		D8A9DB552CFE2D52003C1721 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D875A5F32CFF7653000493B8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		D8A9DB442CFE2D51003C1721 /* SwiftWorkshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftWorkshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8A9DB542CFE2D52003C1721 /* SwiftWorkshopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftWorkshopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8A9DB5E2CFE2D52003C1721 /* SwiftWorkshopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftWorkshopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +80,7 @@
 		D8A9DB3B2CFE2D51003C1721 = {
 			isa = PBXGroup;
 			children = (
+				D875A5F32CFF7653000493B8 /* .gitignore */,
 				D8A9DB462CFE2D51003C1721 /* SwiftWorkshop */,
 				D8A9DB572CFE2D52003C1721 /* SwiftWorkshopTests */,
 				D8A9DB612CFE2D52003C1721 /* SwiftWorkshopUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D875A5F42CFF7653000493B8 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
